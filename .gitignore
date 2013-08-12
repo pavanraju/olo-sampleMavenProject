@@ -1,1 +1,5 @@
 target/
+drivers/win32/IEDriverServer.exe
+drivers/win32/IEDriverServer_Win32_2.34.0.zip
+drivers/win32/chromedriver.exe
+drivers/win32/chromedriver_win32_2.2.zip
