@@ -11,7 +11,7 @@ public class WebDriverPageObjectModelTest extends WebDriverInitiator{
 	
 	@Test
 	public void loginTest() throws Exception{
-		LoginPage lp = PageFactory.initElements(driver, LoginPage.class);
+		LoginPage lp = PageFactory.initElements(getDriver(), LoginPage.class);
 		String userName = app.get("app").getProperty("username");
 		String password = app.get("app").getProperty("password");
 		lp.login(userName, password);
