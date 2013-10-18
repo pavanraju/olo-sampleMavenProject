@@ -6,7 +6,7 @@
 		</classes>
 	</test>
 	
-	<test name="KeywordDriven">
+	<!-- test name="KeywordDriven">
 		<classes>
 		    <class name="com.keywordFactory.LoginFactoryTest" ></class>
 		</classes>
@@ -20,9 +20,8 @@
 	
 	<test name="webdriver">
 		<classes>
-		    <class name="com.tests.WebDriverSampleTest" ></class>
 		    <class name="com.tests.WebDriverPageObjectModelTest" ></class>
 		</classes>
-	</test>
+	</test-->
 	
 </suite>

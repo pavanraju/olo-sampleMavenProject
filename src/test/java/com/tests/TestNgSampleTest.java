@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class TestNgSampleTest {
 	
-	@Test
+	@Test(description="Hi I am tooltip")
 	public void test1(){
 		throw new SkipException("skip");
 	}
