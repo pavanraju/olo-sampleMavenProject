@@ -6,19 +6,19 @@
 		</classes>
 	</test>
 	
-	<!-- test name="KeywordDriven">
+	<test name="KeywordDriven">
 		<classes>
 		    <class name="com.keywordFactory.LoginFactoryTest" ></class>
 		</classes>
 	</test>
 	
-	<test name="DataDriven">
+	<!-- test name="DataDriven">
 		<classes>
 		    <class name="com.keywordFactory.LoginFactoryTestWithData" ></class>
 		</classes>
-	</test>
+	</test-->
 	
-	<test name="webdriver">
+	<!-- test name="webdriver">
 		<classes>
 		    <class name="com.tests.WebDriverPageObjectModelTest" ></class>
 		</classes>
