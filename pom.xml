@@ -23,12 +23,12 @@
 	<dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>2.36.0</version>
+        <version>2.39.0</version>
     </dependency>
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-server</artifactId>
-        <version>2.36.0</version>
+        <version>2.39.0</version>
     </dependency>
     <dependency>
 		<groupId>com.opera</groupId>
@@ -55,7 +55,7 @@
 		<artifactId>olo</artifactId>
 		<version>0.16.0</version>
 		<scope>system</scope>
-		<systemPath>${basedir}\lib\olo-0.16.0-SNAPSHOT.jar</systemPath>
+		<systemPath>${basedir}\lib\olo-0.16.0.jar</systemPath>
 	</dependency>
   </dependencies>
   
@@ -84,7 +84,7 @@
   					</property>
   					<property>
   						<name>listener</name>
-  						<value>com.olo.listeners.InvokedMethodListener,com.olo.listeners.TestListener,com.olo.listeners.SuiteListener,com.olo.listeners.Reporter</value>
+  						<value>com.olo.listeners.InvokedMethodListener,com.olo.listeners.SuiteListener,com.olo.listeners.Reporter</value>
   					</property>
   				</properties>
   				<suiteXmlFiles>

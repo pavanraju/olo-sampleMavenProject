@@ -17,7 +17,7 @@ public class TestNgSampleTest {
 	
 	@Test
 	public void test3() throws Exception{
-		throw new Exception("Failure");
+		//throw new Exception("Failure");
 	}
 	
 }
