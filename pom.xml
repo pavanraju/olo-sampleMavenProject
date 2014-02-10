@@ -11,16 +11,6 @@
 		<version>1.4.7</version>
 	</dependency>
 	<dependency>
-		<groupId>org.apache.poi</groupId>
-		<artifactId>poi</artifactId>
-		<version>3.9</version>
-	</dependency>
-	<dependency>
-		<groupId>org.apache.poi</groupId>
-		<artifactId>poi-ooxml</artifactId>
-		<version>3.9</version>
-	</dependency>
-	<dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
         <version>2.39.0</version>
@@ -46,16 +36,11 @@
 		<version>1.4.01</version>
 	</dependency>
 	<dependency>
-		<groupId>log4j</groupId>
-		<artifactId>log4j</artifactId>
-		<version>1.2.17</version>
-	</dependency>
-	<dependency>
-		<groupId>com.olo</groupId>
+		<groupId>com.github.pavanraju</groupId>
 		<artifactId>olo</artifactId>
-		<version>0.16.0</version>
+		<version>0.18.0</version>
 		<scope>system</scope>
-		<systemPath>${basedir}\lib\olo-0.16.0.jar</systemPath>
+		<systemPath>${basedir}\lib\olo-0.18.0.jar</systemPath>
 	</dependency>
   </dependencies>
   
@@ -84,7 +69,7 @@
   					</property>
   					<property>
   						<name>listener</name>
-  						<value>com.olo.listeners.InvokedMethodListener,com.olo.listeners.SuiteListener,com.olo.listeners.Reporter</value>
+  						<value>com.olo.listeners.SuiteListener,com.olo.listeners.Reporter</value>
   					</property>
   				</properties>
   				<suiteXmlFiles>
